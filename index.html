@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <p>Adicione suas tarefas!</p>
+    <input type="text" placeholder="Digite aqui a sua tarefa " id="input-tarefa">
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button> <!-- quando for clicado, faca -->
+    <button onclick="removerTudo()" class="botao_lista-esconder" id="botao_lista" >Remover Tudo</button>
+    <p id="mensagem"></p>
+    <p id="mensagem-tarefa"></p>
+    <ul id="lista-tarefa"></ul>
+  </div>
+
+  <script src="script.js"></script> <!-- Primeiro carrega o visual da pagina, dps o js -->
+</body>
+</html>

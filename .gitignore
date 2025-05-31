@@ -1,0 +1,62 @@
+# =============================
+# SISTEMA OPERACIONAL
+# =============================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+._*
+
+# =============================
+# ARQUIVOS COMPILADOS / TEMPORÁRIOS
+# =============================
+*.exe
+*.out
+*.o
+*.obj
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+
+# =============================
+# VS CODE / OUTROS EDITORES
+# =============================
+.vscode/
+*.code-workspace
+
+# =============================
+# GOOGLE DRIVE
+# =============================
+.tmp.driveupload/
+*.gdoc
+*.gsheet
+*.gslides
+*.gdisk
+
+# Node.js (se usar npm, vite, webpack etc.) | FERRAMENTAS DE JS
+node_modules/
+dist/
+build/
+.env
+
+# Cache e logs
+*.log
+.cache/
+*.tmp
+*.bak
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos de sistema operacional
+ehthumbs.db
+Icon?
+._*
+
+# Arquivos de deploy do Netlify, Vercel, etc (se aplicável)
+.netlify/
+.vercel/
